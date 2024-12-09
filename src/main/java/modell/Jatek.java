@@ -1,7 +1,7 @@
 package modell;
 
 public class Jatek {
-    private int jatekDb = 0;
+    private int jatekDb;
 
     public Jatek(int jatekDb) {
         this.jatekDb = jatekDb + 1;

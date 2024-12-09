@@ -5,24 +5,25 @@ import modell.Babu;
 
 import java.util.Arrays;
 
-public class LogikaiJatek extends Jatek{
-    private Babu tabla[][] = new Babu[4][5];
-    private int sorrend[] = new int[10];
+public class LogikaiJatek extends Jatek {
+    private Babu tabla[][];
+    private int sorrend[];
     private int babuDb;
 
-
     public LogikaiJatek() {
-        super(jatekDb);
-        this(tabla, sorrend);
+        super(0);
+        this.tabla = new Babu[4][5];
+        this.sorrend = new int[10];
         this.babuDb = 3;
     }
 
     public LogikaiJatek(int babuDb) {
-        super(jatekDb);
+        super(0);
         this.babuDb = babuDb;
         this.tabla = new Babu[4][5];
-        this.sorrend =  new int[10];
+        this.sorrend = new int[10];
     }
+
 
     public boolean van8FelettiEro(int ero){
         return (ero > 0) ? true : false;
