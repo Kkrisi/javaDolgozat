@@ -1,12 +1,12 @@
 package hu.szamalk;
 
 public class Tabla {
-    private String[] T;
-    private String[] UresCella;
+    private char[] T;
+    private char[] UresCella;
 
-    public Tabla(String[] t, String[] uresCella) {
-        T = t;
-        UresCella = uresCella;
+    public Tabla(char[] T, char[] UresCella) {
+        T = T;
+        UresCella = UresCella;
     }
 
     public void Elhelyez(){
