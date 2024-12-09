@@ -1,5 +1,7 @@
 package feladat;
 
+
+
 public class Tabla {
     private char[][] T;
     private char UresCella;
@@ -15,14 +17,14 @@ public class Tabla {
         for (int i = 1; i < 9; i++) {
             T[i][0] = i;
             for (int j = 1; j < 9; j++) {
-                T = [0][j];
+                T = char[0][j];
             }
         }
     }
 
-    public void kiIr(){
+    public void kiIr() {
         if (ertek == "") {
-            System.out.println("Nincs megadva betű.");
+            System.out.println("Nincs megadva karakter.");
         }
 
         for (char[] sor : T) {
@@ -32,4 +34,10 @@ public class Tabla {
             }
             System.out.println();
         }
+    }
+
+    public void Elhelyez(String N){
+        String kiralyno = "K";
+
+    }
 }
