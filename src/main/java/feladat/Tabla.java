@@ -38,6 +38,6 @@ public class Tabla {
 
     public void Elhelyez(String N){
         String kiralyno = "K";
-
+     
     }
 }
